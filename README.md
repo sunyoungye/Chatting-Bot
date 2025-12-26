@@ -14,10 +14,13 @@ The system is designed to be modular and extensible, allowing multiple chatbot p
 ## Technical Highlights
 - Implemented a reusable 'ChatBot' class for handling input processing and responses
 - Separated chatbot behavior from control logic for easier extension
-- Designed clear execution flow to manage conversation state
+- Designed a clear execution flow to manage conversation state
 
 ## Tech Stack
 - Python
 
 ## How to Run
-Download the ChatBot.py, Chatter.py, and README.txt files and place them in a PyCharm project. Then, run Chatter.py to start the chatbot.
+Download ChatBot.py, Chatter.py, good_responses.csv, and evil_responses.csv, and place the files into the PyCharm project.
+Run Chatter.py to interact with the chatbot as demonstrated in README.txt. Try having a conversation with the ChatBot!
+
+You can also open responses.csv files to see which keywords trigger specific responses and how the ChatBot reacts to different user inputs.
